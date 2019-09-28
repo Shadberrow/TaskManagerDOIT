@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-TaskManagerDOIT/Pods-TaskManagerDOIT-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
+${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/YVAnchor/YVAnchor.framework

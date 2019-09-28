@@ -1,0 +1,6 @@
+framework module YVAnchor {
+  umbrella header "YVAnchor-umbrella.h"
+
+  export *
+  module * { export * }
+}
