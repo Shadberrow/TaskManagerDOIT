@@ -12,9 +12,19 @@ class MainNavigationController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupNavigation()
     }
     
-    
+    private func setupNavigation() {
+        
+        let service = AuthService()
+        let model = AuthViewModel(service: service)
+        let scene = Scene.authViewController(model)
+        
+//        viewControllers = [scene.viewController()]
+        DispatchQueue.main.async {
+            self.present(scene.viewController(), animated: true, completion: nil)
+        }
+    }
     
 }
